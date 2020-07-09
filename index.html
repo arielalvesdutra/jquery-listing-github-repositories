@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositórios do GitHub</title>
+
+  <link href="assets/css/libs/bootstrap4/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/layouts/reset.css" rel="stylesheet" />
+  <link href="assets/css/layouts/header.css" rel="stylesheet" />
+  <link href="assets/css/layouts/main.css" rel="stylesheet" />
+  <link href="assets/css/containers/github-repositories.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">Site</header>
+  <main class="main col-12 col-lg-10 col-xl-8">
+    <section class="github-repositories">
+      <h1>Repositórios do GitHub</h1>
+      
+      <ul class="github-repositories__list">
+       <li class="github-repositories__item">
+         <h2 class="">Nome_repositorio</h2>
+         <div class="repository__contributors">
+           Lista de contribuidores
+           <ul>
+             <li>Até 20 contribuintes</li>
+             <li>Devem ser categorizados pelos números de contribuição: > 100, > 200, > 500</li>
+           </ul>
+         </div>
+         <div class="repository__issues">
+           Lista de issues
+           <ul>
+             <li>it must be possible filter issues by open or closed</li>
+             <li>On click on issue, must be possible see the content of it</li>
+             <li>Deverá ser possível ver o comentário da issue</li>
+           </ul>
+         </div>
+       </li>
+
+      </ul>
+    </section>
+  </main>
+  
+  <script src="assets/js/libs/jquery3/jquery.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="assets/js/libs/bootstrap4/bootstrap.min.js"></script>
+  <script src="assets/js/containers/github-repositories.js"></script>
+</body>
+</html>
