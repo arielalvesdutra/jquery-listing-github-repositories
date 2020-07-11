@@ -9,3 +9,8 @@ body {
 input, select, textarea {
   background: rgb(250, 250, 250) !important; 
 }
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+  text-align: center;
+  justify-content: center;
+}
