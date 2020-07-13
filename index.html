@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Repositórios do GitHub</title>
   
+  <link rel="prefetch" href="assets/img/loader.gif">
   <link href="assets/css/libs/bootstrap4/bootstrap.min.css" rel="stylesheet"  type="text/css"/>
-  <link href="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/libs/jquery-datable/jquery-datatable-bootstrap4.min.css" rel="stylesheet"  type="text/css"/>
   <link href="assets/css/layouts/reset.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/layouts/header.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/layouts/main.css" rel="stylesheet" type="text/css" />
@@ -17,15 +18,21 @@
   <header class="header">Site</header>  
   <main class="main col-12 col-lg-10 col-xl-8">
     <section class="github-repositories">
-      <h1>Repositórios do GitHub</h1>
+      <h1 class="github-repositories__title" >Repositórios do GitHub</h1>
+      <nav class="github-repositories__breadcrumb" aria-label="breadcrumb">
+        <ol class="github-repositories__breadcrumb__list breadcrumb" 
+              id="github-repositories__breadcrumb__list">
+          <li class="breadcrumb-item active">Repositórios</li>
+        </ol>
+      </nav>
       <div id="github-repositories__content"></div>     
     </section>
   </main>
 
   <script src="assets/js/libs/jquery3/jquery.min.js"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="assets/js/libs/axios/axios.min.js"></script>
   <script src="assets/js/libs/bootstrap4/bootstrap.min.js"></script>
   <script src="assets/js/containers/github-repositories.js"></script>
-  <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.21/datatables.min.js"></script>
+  <script src="assets/js/libs/jquery-datatable/jquery-datatable-bootstrap4.min.js"></script>
 </body>
 </html>

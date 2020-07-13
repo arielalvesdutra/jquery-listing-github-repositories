@@ -1,3 +1,12 @@
 .github-repositories {
   width: 100%;
 }
+
+.github-repositories__title {
+  margin: 0 0 30px 0;
+}
+
+.repository-detail__general {
+  margin: 0 0 15px 0;
+  padding: 15px;
+}
